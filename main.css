@@ -20,7 +20,7 @@ h1{
 	margin-bottom: 0px;
 }
 h1 {
-	font-family: 'Roboto Slab', monospace;
+	font-family: 'Alfa Slab One', cursive;
 }
 h2{
 	font-family: 'Roboto Slab', monospace;
@@ -37,7 +37,10 @@ span{
 figcaption{
 	font-family: 'Roboto Slab', monospace;
 	font-weight: lighter;
-	font-size: .5em;
+	font-size: .75em;
+}
+#clean{
+	background-color: white;
 }
 footer{
 	color: grey;
@@ -45,22 +48,22 @@ footer{
 }
 .small {
 	margin: 0px;
-	font-size: 15px;
+	font-size: 1em;
 	margin-left: 5%;
 	margin-right: 5%;
-	color: indianred;
 	display: block;
+	font-weight: lighter;
 	}
 .medium {
 	margin: 0px;
 	font-size: 15px;
 	margin-left: 5%;
   margin-right: 5%;
-	color: slategrey;
+	color: black;
 	display: block;
 }
 .big{
-	font-size: 2em;
+	font-size: 1em;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5px;
@@ -88,12 +91,11 @@ footer{
   width: 90%;
 }
 .caption{
-	font-style: italic;
 	margin: auto;
 	text-align: left;
 	width: 100%;
 	font-size: 100%;
-	color: slategrey;
+	color: black;
 	padding-top: 15px;
 }
 .indent{
@@ -306,12 +308,12 @@ p.link-white>a{
 	}
 
 .caption2{
-	font-style: italic;
+	font-style: bold;
 	margin: auto;
 	text-align: left;
 	width: 100%;
 	font-size: 100%;
-	color: slategrey;
+	color: black;
 	margin-top: -1.5%;
 			}
 	
@@ -365,22 +367,22 @@ p.link-white>a{
 	}
 
 .caption{
-	font-style: italic;
+	font-weight: bold;
 	margin: auto;
 	text-align: left;
 	width: 45%;
 	font-size: 100%;
-	color: slategrey;
+	color: black;
 	padding-top: 15px;
 	}
 
 .caption2{
-	font-style: italic;
+	font-weight: bold;
 	margin: auto;
 	text-align: left;
 	width: 70%;
 	font-size: 100%;
-	color: slategrey;
+	color: black;
 		}
 
 
@@ -415,6 +417,7 @@ p.link-white>a{
 	margin-right: 5%;
 	margin-bottom: 5px;
 	display: block;
+	font-weight: lighter;
 	}
 
 p{
@@ -423,10 +426,10 @@ p{
 
 .medium {
 	margin: 0px;
-	font-size: 1.25em;
+	font-size: 1.5em;
 	margin-left: 17.5%;
   margin-right: 5%;
-	color: slategrey;
+	color: black;
 	display: block;
 }
 
@@ -435,5 +438,13 @@ p{
 	display: block;
 	margin: auto;
 }
+
+.small {
+	margin: 0px;
+	font-size: 1em;
+	margin-left: 17.5%;
+	margin-right: 5%;
+	display: block;
+	}
 
 }
